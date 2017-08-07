@@ -49,4 +49,4 @@ df %>%
      summarise_all(mean) -> df2
 
 # export tidy data
-write.table(df2, 'tidydata.txt')
+write.table(df2, 'tidydata.txt', row.names = FALSE)
